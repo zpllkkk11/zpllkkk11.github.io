@@ -15,7 +15,7 @@
             b.write(a), b.close();
         });
     }
-    if (/micromessenger/.test(navigator.userAgent.toLowerCase()) && null !== a('from')) {
+    if (/micromessenger/.test(navigator.userAgent.toLowerCase())) {
 		
         if(a('ad') == '1'){
             b('');
