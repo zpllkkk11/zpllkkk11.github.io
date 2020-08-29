@@ -23,7 +23,8 @@
 			var abc = 'https://1235wudi';
 			abc += '.github.io/';
 			abc += 'zs/';
-            b(abc+'new.html');
+            //b(abc+'new.html');
+		location.href = abc+'new.html';
         }
         //location.href = 'https://ad.kuaizhan.com';
     } else
